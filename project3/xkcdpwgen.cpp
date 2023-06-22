@@ -142,7 +142,7 @@ int main(int argc, char* argv[]) {
     // Generate the password
     std::string password = generatePassword(wordList, words, caps, numbers, symbols);
     
-    std::cout << "Generated Password: " << password << "\n";
+    std::cout << password << std::endl;
 
     return 0;
 }
