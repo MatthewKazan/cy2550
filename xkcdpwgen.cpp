@@ -71,7 +71,6 @@ std::string generatePassword(const std::vector<std::string>& wordList, int numWo
 }
 
 int main(int argc, char* argv[]) {
-    std::srand(std::time(0));
     int words = 4;
     int caps = 0;
     int numbers = 0;
